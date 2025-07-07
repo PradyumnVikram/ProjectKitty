@@ -7,7 +7,7 @@ Install required dependancies by running\
 Run the module via\
 ```python -m analytics_module.py```
 
-## Directory Structure
+## Repository Structure
 - The main executable for this projecy is analytics_module.py, which takes a trimmed long jump sequence as input, giving corrective feedback as output
 - generator_trimmer.ipynb contains the pipeline for extracting the dataset and processing it for phase segmentation - it requries the data directory with altered_codec, final_dataset, processed, raw_data, ref_vid, split_videos sub directories - these have not been included in the repo since the content is downloaded by the notebook automatically (Note: Convert the downloaded videos (saved in raw_data) to a suitable codec for processing and transfer them to the altered_codec directory)
 - preprocessing_pose_extraction.ipynb contains the pipeline for extracting clusters and segmenting phases
