@@ -1,0 +1,30 @@
+- olympic feed, keywords - "mens long jump olympics 20xx"
+- task 1 - identify thr part where the person is long jumping and trim from downloaded videos
+	- running
+	- take off
+	- fight
+	- land
+	
+	- Clip a reference video for 5 seconds manually
+	- use that reference video to extract clips of people performing long jumps
+	- since athletes are professional we can expect similar position during start and end times
+	
+	- consider peceptual hashing + pose extraction from mediapipe -> did not give desired result
+    - Used a ResNet18-3D, trained on kinetics 400, extracted features from first 5 layers (stem + 8 residual blocks), applied cosine similarity to identify timestamps
+    - split video into small chunks so that my computer doesnt crash
+    - manually weeded out extremities from the dataset
+    
+- task 2 - we now have a dataset at hand, now we start the analysis
+    - first appraoch is to extract features and create a new dataset which can be clustered in 4 phases, considering KMeans
+    - hip_vel_y, hip_vel_x, hip_y, lower_foot, left_knee_angle, right_knee_angle, hip_leg_angle are considered features
+    - detects run up pretty well fails to classify flight
+    - added some features
+    - smoothening in features via median filter and in design matrix via savitsky golay filter and normalisation
+    - clusters well except for some error, directly going to smooth labels now by assuming order of phases
+    - works pretty well
+
+- task 3 - final keypoints extracted and segmented
+    - anomaly detection can be consiedered one class SVM, Isolation forest - this requires for me to extract features such as mean, median, mode etc.
+    - train an LSTM/TCN (no idea what that is, will require understanding their mechanisms first)
+    - one class SVM worked pretty well, extracted 2 features per phase for anomaly detection, contours plotted show good capturing of data
+	
