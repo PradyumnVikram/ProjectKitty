@@ -205,28 +205,28 @@ feature_descript = [
 if to_process[0]:
     prediction, feature, action = predict(to_process, 0)
     if prediction == -1:
-        print(f'[ANOMALY]: {feature_descript[0][feature][action]}')
+        print(f'[ANOMALY - Run Up]: {feature_descript[0][feature][action]}')
     else:
         print('[LOG]: No correction suggested')
 
 if to_process[1]:
     prediction, feature, action = predict(to_process, 1)
     if prediction == -1:
-        print(f'[ANOMALY]: {feature_descript[1][feature][action]}')
+        print(f'[ANOMALY - Take Off]: {feature_descript[1][feature][action]}')
     else:
         print('[LOG]: No correction suggested')
 
 if to_process[2]:    
     prediction, feature, action = predict(to_process, 2)
     if prediction == -1:
-        print(f'[ANOMALY]: {feature_descript[2][feature][action]}')
+        print(f'[ANOMALY - Flight]: {feature_descript[2][feature][action]}')
     else:
         print('[LOG]: No correction suggested')
 
 if to_process[3]:
     prediction, feature, action = predict(to_process, 3)
     if prediction == -1:
-        print(f'[ANOMALY]: {feature_descript[3][feature][action]}')
+        print(f'[ANOMALY - Landing]: {feature_descript[3][feature][action]}')
     else:
         print('[LOG]: No correction suggested')
 
