@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.7)  8 JUL 2025 02:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.7)  8 JUL 2025 02:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -221,11 +221,11 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 116--120
 
 
 [6 <./plots/model_run_up.png> <./plots/model_take_off.png> <./plots/model_flight.png> <./plots/model_landing.png>]
-<plots/result.png, id=49, 1568.86125pt x 430.60875pt>
+<plots/result.png, id=49, 1725.44624pt x 396.48125pt>
 File: plots/result.png Graphic file (type png)
 <use plots/result.png>
 Package pdftex.def Info: plots/result.png  used on input line 128.
-(pdftex.def)             Requested size: 467.99881pt x 128.44771pt.
+(pdftex.def)             Requested size: 467.99881pt x 107.53534pt.
 
 Overfull \hbox (77.99881pt too wide) in paragraph at lines 128--129
 [][] 
@@ -263,7 +263,7 @@ Here is how much of TeX's memory you used:
  0 hyphenation exceptions out of 8191
  57i,7n,65p,572b,239s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi657/cmr10.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi657/cmbx10.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmbx12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi864/cmbx12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmr12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmr17.pk>
-Output written on report.pdf (7 pages, 620072 bytes).
+Output written on report.pdf (7 pages, 616680 bytes).
 PDF statistics:
  315 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

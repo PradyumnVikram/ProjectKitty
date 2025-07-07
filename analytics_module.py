@@ -173,15 +173,15 @@ def cluster_df(df, skip_frames=25):
     return final_df
 
 
-def predict(to_process, i):
+def predict(to_process, i, model, scaler):
 
     to_process[i] = np.array(to_process[i])
-    coord = run_scaler.transform([[np.mean(to_process[i][:, 1]), np.mean(to_process[i][:, 3])]])
-    prediction = (run_model.predict(coord))[0]
+    coord = scaler.transform([[np.mean(to_process[i][:, 1]), np.mean(to_process[i][:, 3])]])
+    prediction = (model.predict(coord))[0]
     coord = coord[0]
     xx, yy = np.meshgrid(np.linspace(-5, 5, 500), np.linspace(-5, 5, 500))
     grid_points = np.c_[xx.ravel(), yy.ravel()]
-    inside = run_model.decision_function(grid_points) >= 0
+    inside = model.decision_function(grid_points) >= 0
     contour_center = grid_points[inside].mean(axis=0)
     feature_to_fix = np.argmax(abs(contour_center - coord))
     action = (coord - contour_center)[feature_to_fix] > 0
@@ -206,38 +206,38 @@ feature_descript = [
 
 
 if to_process[0]:
-    prediction, feature, action = predict(to_process, 0)
+    prediction, feature, action = predict(to_process, 0, run_model, run_scaler)
     if prediction == -1:
         print(f'\033[31m[ANOMALY - Run Up]: {feature_descript[0][feature][action]}\033[0m')
     else:
-        print('\033[32m[LOG]: No correction suggested\033[0m]')
+        print('\033[32m[LOG]: No correction suggested\033[0m')
 else:
     print('[LOG]: No features to analyse')
 
 if to_process[1]:
-    prediction, feature, action = predict(to_process, 1)
+    prediction, feature, action = predict(to_process, 1, take_model, take_scaler)
     if prediction == -1:
         print(f'\033[31m[ANOMALY - Take Off]: {feature_descript[1][feature][action]}\033[0m')
     else:
-        print('\033[32m[LOG]: No correction suggested\033[0m]')
+        print('\033[32m[LOG]: No correction suggested\033[0m')
 else:
     print('[LOG]: No features to analyse')
 
 if to_process[2]:    
-    prediction, feature, action = predict(to_process, 2)
+    prediction, feature, action = predict(to_process, 2, flight_model, flight_scaler)
     if prediction == -1:
         print(f'\033[31m[ANOMALY - Flight]: {feature_descript[2][feature][action]}\033[0m')
     else:
-        print('\033[32m[LOG]: No correction suggested\033[0m]')
+        print('\033[32m[LOG]: No correction suggested\033[0m')
 else:
     print('[LOG]: No features to analyse')
 
 if to_process[3]:
-    prediction, feature, action = predict(to_process, 3)
+    prediction, feature, action = predict(to_process, 3, landing_model, landing_scaler)
     if prediction == -1:
         print(f'\033[31m[ANOMALY - Landing]: {feature_descript[3][feature][action]}\033[0m')
     else:
-        print('\033[32m[LOG]: No correction suggested\033[0m]')
+        print('\033[32m[LOG]: No correction suggested\033[0m')
 else:
     print('[LOG]: No features to analyse')
 
