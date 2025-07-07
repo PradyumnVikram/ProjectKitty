@@ -3,5 +3,6 @@
 
 ## Usage
 Install required dependancies by running
-```pip install mediapipe opencv-python scikit-learn numpy```
+```pip install mediapipe opencv-python scikit-learn numpy```\
+Run the module via\
 ```python -m analytics_module.py```
