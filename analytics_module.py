@@ -6,8 +6,10 @@ from sklearn.cluster import KMeans
 from sklearn.svm import OneClassSVM
 from sklearn.preprocessing import StandardScaler
 import pickle
+import warnings
+warnings.filterwarnings('ignore')
 
-file_path = r'data/ref_vid/ref_vid.mp4'
+file_path = input('\033[31m[LOG]: Enter path to cropped video file: \033[0m')
 
 print('[LOG]: Loading models')
 
@@ -191,6 +193,7 @@ print('[LOG]: Extracting features')
 df = extract_features_dataset(file_path)
 to_process = cluster_df(df)
 
+
 feature_descript = [
                     {0:['Decrease Speed', 'Increase Speed'],
                      1:['Decrease back angle with Vertical', 'Increase back angle with verticle']},
@@ -205,30 +208,38 @@ feature_descript = [
 if to_process[0]:
     prediction, feature, action = predict(to_process, 0)
     if prediction == -1:
-        print(f'[ANOMALY - Run Up]: {feature_descript[0][feature][action]}')
+        print(f'\033[31m[ANOMALY - Run Up]: {feature_descript[0][feature][action]}\033[0m')
     else:
-        print('[LOG]: No correction suggested')
+        print('\033[32m[LOG]: No correction suggested\033[0m]')
+else:
+    print('[LOG]: No features to analyse')
 
 if to_process[1]:
     prediction, feature, action = predict(to_process, 1)
     if prediction == -1:
-        print(f'[ANOMALY - Take Off]: {feature_descript[1][feature][action]}')
+        print(f'\033[31m[ANOMALY - Take Off]: {feature_descript[1][feature][action]}\033[0m')
     else:
-        print('[LOG]: No correction suggested')
+        print('\033[32m[LOG]: No correction suggested\033[0m]')
+else:
+    print('[LOG]: No features to analyse')
 
 if to_process[2]:    
     prediction, feature, action = predict(to_process, 2)
     if prediction == -1:
-        print(f'[ANOMALY - Flight]: {feature_descript[2][feature][action]}')
+        print(f'\033[31m[ANOMALY - Flight]: {feature_descript[2][feature][action]}\033[0m')
     else:
-        print('[LOG]: No correction suggested')
+        print('\033[32m[LOG]: No correction suggested\033[0m]')
+else:
+    print('[LOG]: No features to analyse')
 
 if to_process[3]:
     prediction, feature, action = predict(to_process, 3)
     if prediction == -1:
-        print(f'[ANOMALY - Landing]: {feature_descript[3][feature][action]}')
+        print(f'\033[31m[ANOMALY - Landing]: {feature_descript[3][feature][action]}\033[0m')
     else:
-        print('[LOG]: No correction suggested')
+        print('\033[32m[LOG]: No correction suggested\033[0m]')
+else:
+    print('[LOG]: No features to analyse')
 
 
 
