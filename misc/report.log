@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.7)  8 JUL 2025 02:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.7)  8 JUL 2025 02:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -85,7 +85,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 6.
- (report.toc)
+
+No file report.toc.
 \tf@toc=\write3
 \openout3 = `report.toc'.
 
@@ -103,10 +104,60 @@ Overfull \hbox (18.54977pt too wide) in paragraph at lines 34--34
 []\OT1/cmr/bx/n/17.28 Data Collection and Extraction of Long Jump
  []
 
+/home/pradyumnvikram/projects/ProjectKitty/misc/report.tex:39: Missing $ inserted.
+<inserted text> 
+                $
+l.39 ...to which they were transferred to altered_
+                                                  codec/
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--44
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 39.
+/home/pradyumnvikram/projects/ProjectKitty/misc/report.tex:44: Missing $ inserted.
+<inserted text> 
+                $
+l.44  \begin{itemize}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
+/home/pradyumnvikram/projects/ProjectKitty/misc/report.tex:44: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.44  \begin{itemize}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (416.11086pt too wide) in paragraph at lines 35--44
+\OML/cmm/m/it/12 Forextractionofsegmentsofathletesperforminglongjumps; Ifirstmanuallycroppedasingularreferencevideoofanathleteperformingthemovements\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Run \OMS/cmsy/m/n/12 ^^@
  []
+
+
+Overfull \hbox (549.01234pt too wide) in paragraph at lines 35--44
+\OML/cmm/m/it/12 up; Take \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 off; FlightandLanding\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :ThegoalisnowtofindtimestampsinthegamefeedvideosrepresentingsimilarmovementasinthereferencevideoforwhichIattemptedtwoapproaches\OMS/cmsy/m/n/12 ^^@$ 
+ []
+
+
+/home/pradyumnvikram/projects/ProjectKitty/misc/report.tex:45: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45     \item F
+                irst, I tried to extract the perceptual hash of the referenc...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (6.49306pt too wide) in paragraph at lines 51--53
@@ -114,36 +165,78 @@ Overfull \hbox (6.49306pt too wide) in paragraph at lines 51--53
  []
 
 
+/home/pradyumnvikram/projects/ProjectKitty/misc/report.tex:54: LaTeX Error: Lonely \item--perhaps a missing list environment.
 
-[2]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54     \item S
+                econd, I used the ResNet3D-18 pretrained CNN (trained on the...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Overfull \hbox (6.66136pt too wide) in paragraph at lines 54--56
 []\OT1/cmr/m/n/12 Second, I used the ResNet3D-18 pretrained CNN (trained on the Kinetics
  []
 
 
+
+[2]
 Overfull \hbox (11.7805pt too wide) in paragraph at lines 63--64
 []\OT1/cmr/m/n/12 These videos are then clipped according to the extracted timestamps,
  []
 
 
+/home/pradyumnvikram/projects/ProjectKitty/misc/report.tex:67: LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67  \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/home/pradyumnvikram/projects/ProjectKitty/misc/report.tex:67: Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.67  \end{itemize}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+
+Overfull \hbox (4.1405pt too wide) in paragraph at lines 69--69
+[]\OT1/cmr/bx/n/17.28 Phase Segmentation of Long Jump Clips 
+ []
+
+
+Overfull \hbox (11.31528pt too wide) in paragraph at lines 71--75
+\OT1/cmr/m/n/12 each frame, which were then passed into the K-Means clustering algorithm
+ []
+
+
 
 [3]
-<plots/graph1.png, id=19, 627.34375pt x 524.96124pt>
+<plots/graph1.png, id=21, 627.34375pt x 524.96124pt>
 File: plots/graph1.png Graphic file (type png)
 <use plots/graph1.png>
 Package pdftex.def Info: plots/graph1.png  used on input line 90.
 (pdftex.def)             Requested size: 195.0pt x 163.17686pt.
-<plots/graph2.png, id=21, 627.34375pt x 524.96124pt>
+<plots/graph2.png, id=23, 627.34375pt x 524.96124pt>
 File: plots/graph2.png Graphic file (type png)
 <use plots/graph2.png>
 Package pdftex.def Info: plots/graph2.png  used on input line 91.
 (pdftex.def)             Requested size: 195.0pt x 163.17686pt.
-<plots/graph3.png, id=22, 627.34375pt x 524.96124pt>
+<plots/graph3.png, id=24, 627.34375pt x 524.96124pt>
 File: plots/graph3.png Graphic file (type png)
 <use plots/graph3.png>
 Package pdftex.def Info: plots/graph3.png  used on input line 92.
 (pdftex.def)             Requested size: 195.0pt x 163.17686pt.
-<plots/graph4.png, id=23, 627.34375pt x 524.96124pt>
+<plots/graph4.png, id=25, 627.34375pt x 524.96124pt>
 File: plots/graph4.png Graphic file (type png)
 <use plots/graph4.png>
 Package pdftex.def Info: plots/graph4.png  used on input line 93.
@@ -158,12 +251,12 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 90--94
 [] [] 
  []
 
-<plots/cluster_graph.png, id=24, 739.76375pt x 518.93875pt>
+<plots/cluster_graph.png, id=26, 739.76375pt x 518.93875pt>
 File: plots/cluster_graph.png Graphic file (type png)
 <use plots/cluster_graph.png>
 Package pdftex.def Info: plots/cluster_graph.png  used on input line 99.
 (pdftex.def)             Requested size: 195.0pt x 136.78963pt.
-<plots/cluster_smooth.png, id=25, 538.01pt x 429.605pt>
+<plots/cluster_smooth.png, id=27, 538.01pt x 429.605pt>
 File: plots/cluster_smooth.png Graphic file (type png)
 <use plots/cluster_smooth.png>
 Package pdftex.def Info: plots/cluster_smooth.png  used on input line 100.
@@ -174,36 +267,26 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 99--101
  []
 
 
-Overfull \hbox (23.42981pt too wide) in paragraph at lines 108--108
+Overfull \hbox (52.8045pt too wide) in paragraph at lines 108--108
 []\OT1/cmr/bx/n/17.28 Anomaly Detection and Corrective Prediction 
  []
 
-
-Overfull \hbox (13.44304pt too wide) in paragraph at lines 110--114
-\OT1/cmr/m/n/12 For anomaly detection ie isolating out errors and providing descriptive corrective
- []
-
-
-
-[4]
-
-[5 <./plots/graph1.png> <./plots/graph2.png> <./plots/graph3.png> <./plots/graph4.png> <./plots/cluster_graph.png> <./plots/cluster_smooth.png>]
-<plots/model_run_up.png, id=38, 549.05125pt x 447.6725pt>
+<plots/model_run_up.png, id=28, 549.05125pt x 447.6725pt>
 File: plots/model_run_up.png Graphic file (type png)
 <use plots/model_run_up.png>
 Package pdftex.def Info: plots/model_run_up.png  used on input line 116.
 (pdftex.def)             Requested size: 195.0pt x 158.98973pt.
-<plots/model_take_off.png, id=39, 549.05125pt x 447.6725pt>
+<plots/model_take_off.png, id=29, 549.05125pt x 447.6725pt>
 File: plots/model_take_off.png Graphic file (type png)
 <use plots/model_take_off.png>
 Package pdftex.def Info: plots/model_take_off.png  used on input line 117.
 (pdftex.def)             Requested size: 195.0pt x 158.98973pt.
-<plots/model_flight.png, id=40, 549.05125pt x 447.6725pt>
+<plots/model_flight.png, id=30, 549.05125pt x 447.6725pt>
 File: plots/model_flight.png Graphic file (type png)
 <use plots/model_flight.png>
 Package pdftex.def Info: plots/model_flight.png  used on input line 118.
 (pdftex.def)             Requested size: 195.0pt x 158.98973pt.
-<plots/model_landing.png, id=41, 549.05125pt x 451.6875pt>
+<plots/model_landing.png, id=31, 549.05125pt x 451.6875pt>
 File: plots/model_landing.png Graphic file (type png)
 <use plots/model_landing.png>
 Package pdftex.def Info: plots/model_landing.png  used on input line 119.
@@ -220,8 +303,16 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 116--120
 
 
 
+[4]
+
+[5 <./plots/graph1.png> <./plots/graph2.png> <./plots/graph3.png> <./plots/graph4.png> <./plots/cluster_graph.png> <./plots/cluster_smooth.png>]
+
 [6 <./plots/model_run_up.png> <./plots/model_take_off.png> <./plots/model_flight.png> <./plots/model_landing.png>]
-<plots/result.png, id=49, 1568.86125pt x 430.60875pt>
+Overfull \hbox (10.68613pt too wide) in paragraph at lines 125--126
+\OT1/cmr/m/n/12 Games - refer to misc/), in which the model provided descriptive feedback.
+ []
+
+<plots/result.png, id=51, 1568.86125pt x 430.60875pt>
 File: plots/result.png Graphic file (type png)
 <use plots/result.png>
 Package pdftex.def Info: plots/result.png  used on input line 128.
@@ -232,18 +323,8 @@ Overfull \hbox (77.99881pt too wide) in paragraph at lines 128--129
  []
 
 
-Overfull \hbox (8.25012pt too wide) in paragraph at lines 136--137
-[]\OT1/cmr/m/n/12 Since I have only unlabelled data, it is difficult to analyse the performance
- []
-
-
-Overfull \hbox (13.73886pt too wide) in paragraph at lines 136--137
-\OT1/cmr/m/n/12 of the analytics module (The visualisation is my only source of verification) 
- []
-
-
-Overfull \hbox (9.68752pt too wide) in paragraph at lines 137--138
-[]\OT1/cmr/m/n/12 More features can be added for descriptive feedback - seeing how currently
+Overfull \hbox (0.41817pt too wide) in paragraph at lines 133--134
+\OT1/cmr/m/n/12 We have developed a module which can evaluate long jumps and provide
  []
 
 
@@ -253,19 +334,23 @@ Overfull \hbox (9.68752pt too wide) in paragraph at lines 137--138
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 1381 strings out of 475460
- 23969 string characters out of 5765886
- 409404 words of memory out of 5000000
- 24406 multiletter control sequences out of 15000+600000
- 562205 words of font info for 47 fonts, out of 8000000 for 9000
+ 1394 strings out of 475460
+ 24046 string characters out of 5765886
+ 409382 words of memory out of 5000000
+ 24415 multiletter control sequences out of 15000+600000
+ 564336 words of font info for 54 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 57i,7n,65p,572b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi657/cmr10.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi657/cmbx10.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmbx12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi864/cmbx12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmr12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmr17.pk>
-Output written on report.pdf (7 pages, 619940 bytes).
+ 57i,7n,65p,572b,228s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmsy10.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmmi12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmmi8.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi657/cmr10.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi657/cmbx10.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi864/cmbx12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmr12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmr17.pk>
+Output written on report.pdf (7 pages, 618720 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
+ 316 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
