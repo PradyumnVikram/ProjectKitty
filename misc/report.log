@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.7)  8 JUL 2025 01:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.7)  8 JUL 2025 02:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -237,6 +237,11 @@ Overfull \hbox (8.25012pt too wide) in paragraph at lines 136--137
  []
 
 
+Overfull \hbox (13.73886pt too wide) in paragraph at lines 136--137
+\OT1/cmr/m/n/12 of the analytics module (The visualisation is my only source of verification) 
+ []
+
+
 Overfull \hbox (9.68752pt too wide) in paragraph at lines 137--138
 []\OT1/cmr/m/n/12 More features can be added for descriptive feedback - seeing how currently
  []
@@ -258,7 +263,7 @@ Here is how much of TeX's memory you used:
  0 hyphenation exceptions out of 8191
  57i,7n,65p,572b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi657/cmr10.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi657/cmbx10.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmbx12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi864/cmbx12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmr12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmr17.pk>
-Output written on report.pdf (7 pages, 620003 bytes).
+Output written on report.pdf (7 pages, 619940 bytes).
 PDF statistics:
  315 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
