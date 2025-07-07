@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.7)  8 JUL 2025 02:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.7)  8 JUL 2025 02:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -107,8 +107,8 @@ Overfull \hbox (18.54977pt too wide) in paragraph at lines 34--34
 /home/pradyumnvikram/projects/ProjectKitty/misc/report.tex:39: Missing $ inserted.
 <inserted text> 
                 $
-l.39 ...to which they were transferred to altered_
-                                                  codec/
+l.39 ...hich they were transferred to the altered_
+                                                  codec directory.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -348,9 +348,9 @@ Here is how much of TeX's memory you used:
  0 hyphenation exceptions out of 8191
  57i,7n,65p,572b,228s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmsy10.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmmi12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmmi8.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi657/cmr10.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi657/cmbx10.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi864/cmbx12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmr12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmr17.pk>
-Output written on report.pdf (7 pages, 618720 bytes).
+Output written on report.pdf (7 pages, 618416 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
+ 315 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
