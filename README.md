@@ -5,4 +5,5 @@
 Install required dependancies by running\
 ```pip install mediapipe opencv-python scikit-learn numpy```\
 Run the module via\
-```python -m analytics_module.py```
+```python -m analytics_module.py```\
+A report for the project can be found [here](https://github.com/PradyumnVikram/ProjectKitty/blob/main/misc/report.pdf)
