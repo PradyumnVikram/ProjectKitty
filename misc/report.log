@@ -1,0 +1,266 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.7)  8 JUL 2025 01:58
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/pradyumnvikram/projects/ProjectKitty/misc/report.tex
+(/home/pradyumnvikram/projects/ProjectKitty/misc/report.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/home/pradyumnvikram/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/home/pradyumnvikram/.miktex/texmfs/install/tex/latex/base/size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (/home/pradyumnvikram/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/home/pradyumnvikram/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/home/pradyumnvikram/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/home/pradyumnvikram/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/home/pradyumnvikram/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/home/pradyumnvikram/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (/home/pradyumnvikram/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count270
+\l__pdf_internal_box=\box52
+) (report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+ (/home/pradyumnvikram/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count271
+\scratchdimen=\dimen144
+\scratchbox=\box53
+\nofMPsegments=\count272
+\nofMParguments=\count273
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count274
+\MPscratchDim=\dimen145
+\MPnumerator=\count275
+\makeMPintoPDFobject=\count276
+\everyMPtoPDFconversion=\toks19
+) (/home/pradyumnvikram/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/home/pradyumnvikram/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 6.
+ (report.toc)
+\tf@toc=\write3
+\openout3 = `report.toc'.
+
+
+Overfull \hbox (3.9415pt too wide) in paragraph at lines 11--14
+[]\OT1/cmr/m/n/10.95 This report provides a descriptive analysis of the process undertaken
+ []
+
+
+
+[1
+
+{/home/pradyumnvikram/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (18.54977pt too wide) in paragraph at lines 34--34
+[]\OT1/cmr/bx/n/17.28 Data Collection and Extraction of Long Jump
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--44
+
+ []
+
+
+Overfull \hbox (6.49306pt too wide) in paragraph at lines 51--53
+[]\OT1/cmr/m/n/12 The visual summary generated (collage of images) could not capture
+ []
+
+
+
+[2]
+Overfull \hbox (6.66136pt too wide) in paragraph at lines 54--56
+[]\OT1/cmr/m/n/12 Second, I used the ResNet3D-18 pretrained CNN (trained on the Kinetics
+ []
+
+
+Overfull \hbox (11.7805pt too wide) in paragraph at lines 63--64
+[]\OT1/cmr/m/n/12 These videos are then clipped according to the extracted timestamps,
+ []
+
+
+
+[3]
+<plots/graph1.png, id=19, 627.34375pt x 524.96124pt>
+File: plots/graph1.png Graphic file (type png)
+<use plots/graph1.png>
+Package pdftex.def Info: plots/graph1.png  used on input line 90.
+(pdftex.def)             Requested size: 195.0pt x 163.17686pt.
+<plots/graph2.png, id=21, 627.34375pt x 524.96124pt>
+File: plots/graph2.png Graphic file (type png)
+<use plots/graph2.png>
+Package pdftex.def Info: plots/graph2.png  used on input line 91.
+(pdftex.def)             Requested size: 195.0pt x 163.17686pt.
+<plots/graph3.png, id=22, 627.34375pt x 524.96124pt>
+File: plots/graph3.png Graphic file (type png)
+<use plots/graph3.png>
+Package pdftex.def Info: plots/graph3.png  used on input line 92.
+(pdftex.def)             Requested size: 195.0pt x 163.17686pt.
+<plots/graph4.png, id=23, 627.34375pt x 524.96124pt>
+File: plots/graph4.png Graphic file (type png)
+<use plots/graph4.png>
+Package pdftex.def Info: plots/graph4.png  used on input line 93.
+(pdftex.def)             Requested size: 195.0pt x 163.17686pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 90--94
+[][] []
+ []
+
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 90--94
+[] [] 
+ []
+
+<plots/cluster_graph.png, id=24, 739.76375pt x 518.93875pt>
+File: plots/cluster_graph.png Graphic file (type png)
+<use plots/cluster_graph.png>
+Package pdftex.def Info: plots/cluster_graph.png  used on input line 99.
+(pdftex.def)             Requested size: 195.0pt x 136.78963pt.
+<plots/cluster_smooth.png, id=25, 538.01pt x 429.605pt>
+File: plots/cluster_smooth.png Graphic file (type png)
+<use plots/cluster_smooth.png>
+Package pdftex.def Info: plots/cluster_smooth.png  used on input line 100.
+(pdftex.def)             Requested size: 195.0pt x 155.70651pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 99--101
+[][] [] 
+ []
+
+
+Overfull \hbox (23.42981pt too wide) in paragraph at lines 108--108
+[]\OT1/cmr/bx/n/17.28 Anomaly Detection and Corrective Prediction 
+ []
+
+
+Overfull \hbox (13.44304pt too wide) in paragraph at lines 110--114
+\OT1/cmr/m/n/12 For anomaly detection ie isolating out errors and providing descriptive corrective
+ []
+
+
+
+[4]
+
+[5 <./plots/graph1.png> <./plots/graph2.png> <./plots/graph3.png> <./plots/graph4.png> <./plots/cluster_graph.png> <./plots/cluster_smooth.png>]
+<plots/model_run_up.png, id=38, 549.05125pt x 447.6725pt>
+File: plots/model_run_up.png Graphic file (type png)
+<use plots/model_run_up.png>
+Package pdftex.def Info: plots/model_run_up.png  used on input line 116.
+(pdftex.def)             Requested size: 195.0pt x 158.98973pt.
+<plots/model_take_off.png, id=39, 549.05125pt x 447.6725pt>
+File: plots/model_take_off.png Graphic file (type png)
+<use plots/model_take_off.png>
+Package pdftex.def Info: plots/model_take_off.png  used on input line 117.
+(pdftex.def)             Requested size: 195.0pt x 158.98973pt.
+<plots/model_flight.png, id=40, 549.05125pt x 447.6725pt>
+File: plots/model_flight.png Graphic file (type png)
+<use plots/model_flight.png>
+Package pdftex.def Info: plots/model_flight.png  used on input line 118.
+(pdftex.def)             Requested size: 195.0pt x 158.98973pt.
+<plots/model_landing.png, id=41, 549.05125pt x 451.6875pt>
+File: plots/model_landing.png Graphic file (type png)
+<use plots/model_landing.png>
+Package pdftex.def Info: plots/model_landing.png  used on input line 119.
+(pdftex.def)             Requested size: 195.0pt x 160.41565pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 116--120
+[][] []
+ []
+
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 116--120
+[] [] 
+ []
+
+
+
+[6 <./plots/model_run_up.png> <./plots/model_take_off.png> <./plots/model_flight.png> <./plots/model_landing.png>]
+<plots/result.png, id=49, 1568.86125pt x 430.60875pt>
+File: plots/result.png Graphic file (type png)
+<use plots/result.png>
+Package pdftex.def Info: plots/result.png  used on input line 128.
+(pdftex.def)             Requested size: 467.99881pt x 128.44771pt.
+
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 128--129
+[][] 
+ []
+
+
+Overfull \hbox (8.25012pt too wide) in paragraph at lines 136--137
+[]\OT1/cmr/m/n/12 Since I have only unlabelled data, it is difficult to analyse the performance
+ []
+
+
+Overfull \hbox (9.68752pt too wide) in paragraph at lines 137--138
+[]\OT1/cmr/m/n/12 More features can be added for descriptive feedback - seeing how currently
+ []
+
+
+
+[7 <./plots/result.png>] (report.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 1381 strings out of 475460
+ 23969 string characters out of 5765886
+ 409404 words of memory out of 5000000
+ 24406 multiletter control sequences out of 15000+600000
+ 562205 words of font info for 47 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 57i,7n,65p,572b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi657/cmr10.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi657/cmbx10.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmbx12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi864/cmbx12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmr12.pk> </home/pradyumnvikram/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmr17.pk>
+Output written on report.pdf (7 pages, 620003 bytes).
+PDF statistics:
+ 315 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+
