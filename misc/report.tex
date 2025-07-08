@@ -120,6 +120,8 @@ The decision function plotted can be reviewed in Figure 3
     \caption{Decision Boundaries - Showing model fit and performance}
 \end{figure}
 
+The models performed satisfactorily with an ideal class recall of 0.96, 0.88, 0.84 and 0.88 for run-up, take-off, flight and landing anomaly detection respectively.
+
 For providing descriptive feedback, I first identify outliers (any point not in the contour), then I evaluate it's x and y distance from the center of the contour. Since x and y represent the 2 features based on which the contour was made, whichever distance is greater tell me, what was the major contributor to the anomaly - something I cannot do with Isolation Forests. Then the feature contributing most to the anomaly is then acted upon to provide feedback to the athlete in four phases.
 
 Proceeding to build the analytics module, I took an unseen data sample (Trimmed video of an athlete performing long jump from the Asian Games - refer to misc/), in which the model provided descriptive feedback. The interface for the module and the output can be seen in Figure 4
@@ -133,7 +135,6 @@ Proceeding to build the analytics module, I took an unseen data sample (Trimmed 
 We have developed a module which can evaluate long jumps and provide corrective feedback.
 \begin{itemize}
     \item The pipeline is still sometimes struggling to cluster some video clips into various phases
-    \item Since I have only unlabelled data, it is difficult to analyse the performance of the analytics module (The visualisation is my only source of verification)
     \item More features can be added for descriptive feedback - seeing how currently there are only 2 per phase
 \end{itemize} 
 
